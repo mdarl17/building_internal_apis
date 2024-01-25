@@ -30,7 +30,7 @@ development:
   #username: building_internal_apis
 
   # The password associated with the PostgreSQL role (username).
-  #password:
+  password: password
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -51,7 +51,7 @@ development:
   #min_messages: notice
 
 # Warning: The database defined as "test" will be erased and
-# re-generated from your development database when you run "rake".
+# re-generated from your development database when you run "rake".https://www.postman.com/workspace/Turing_API_Test_1~02b0d2a5-347a-42cd-aeb0-bf23928f8e7e/collection/13101199-99cf8bfa-6f90-4458-a133-c6a65cb75901
 # Do not set this db to the same as development or production.
 test:
   <<: *default
